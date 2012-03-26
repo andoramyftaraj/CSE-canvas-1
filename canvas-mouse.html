@@ -11,7 +11,7 @@
 	<body>
 		<canvas width="250" height="250" id="myCanvas"></canvas>
 		
-		
+	
 		<script>
 			var canvas = document.getElementById('myCanvas');
 			var ctx = canvas.getContext('2d');
@@ -19,7 +19,7 @@
 			canvas.addEventListener('mousemove', function(event) {
 				console.log('mousemove at (%o, %o)', event.offsetX, event.offsetY);
 			});
-			
+			drawCircle('movemouse'.x.value, 'movemouse'.y.value, form.radius.value, form.color.value);			});												
 		</script>
 	</body>
 </html>
